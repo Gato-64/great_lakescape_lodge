@@ -1,0 +1,74 @@
+﻿/* 
+Name: Brandon Perez
+ Date started: July 26, 2024
+ Filename: lake_styles.css
+  */
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #7ba8c0;
+}
+
+body h1,
+body h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav ul:first-child,
+header nav li,
+footer {
+  background-color: #183642;
+  color: #fff;
+  padding: 5px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+aside {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+body > section {
+  background-color: #ddd8c4;
+  padding: 20px;
+}
+
+section aside li a {
+  text-decoration: underline;
+}
+html body section:last-of-type li:first-child {
+  font-weight: bolder;
+}
+
+html body section:last-of-type li:not(:first-child) {
+  font-weight: lighter;
+}
+
+html body section:last-of-type,
+#rightcol ul {
+  background-color: #6d4c3d;
+  list-style-type: none;
+  color: #d4d3c0;
+  text-align: left;
+}
+
+#notes {
+  background-color: #00a676;
+}
+
+#events {
+  background-color: #7d8cc4;
+}
+
+footer {
+  text-align: center;
+}
